@@ -1,3 +1,6 @@
-body {
-  font-family: Lato;
-}
+
+
+@import "./styles/variables";
+
+@import "./styles/base.scss";
+@import "./styles/test.scss";

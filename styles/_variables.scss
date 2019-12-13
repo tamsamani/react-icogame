@@ -1,0 +1,187 @@
+
+
+// colors
+$dark : #131313;
+$light : #f3f3f3;
+
+$gray : #808080;
+// lighters
+$gray-light: lighten( $gray, 8);
+$gray-light-1 : lighten( $gray, 16);
+$gray-light-2 : lighten( $gray, 24);
+$gray-light-3 : lighten( $gray, 32);
+$gray-light-4 : lighten( $gray, 40);
+// darkers
+$gray-dark: darken( $gray, 8);
+$gray-dark-1 : darken( $gray, 16);
+$gray-dark-2 : darken( $gray, 24);
+$gray-dark-3 : darken( $gray, 32);
+$gray-dark-4 : darken( $gray, 40);
+
+// red color & its shades
+$red-hue : 0;
+$red : hsl($red-hue + 2, 92%, 48%);
+// lighters
+$red-light: hsl($red-hue + 3, 90%, 50%);
+$red-light-1 : hsl($red-hue + 3, 88%, 54%);
+$red-light-2 : hsl($red-hue + 2, 86%, 60%);
+$red-light-3 : hsl($red-hue + 1, 84%, 68%);
+$red-light-4 : hsl($red-hue + 0, 82%, 78%);
+// darkers
+$red-dark: hsl($red-hue + 1, 88%, 42%);
+$red-dark-1 : hsl($red-hue + 0, 86%, 36%);
+$red-dark-2 : hsl($red-hue + 1, 82%, 30%);
+$red-dark-3 : hsl($red-hue + 2, 76%, 26%);
+$red-dark-4 : hsl($red-hue +3, 70%, 20%);
+
+
+// orange color & its shades
+$orange-hue : 21;
+$orange : hsl($orange-hue + 2, 92%, 48%);
+// lighters
+$orange-light: hsl($orange-hue + 3, 90%, 50%);
+$orange-light-1 : hsl($orange-hue + 3, 88%, 54%);
+$orange-light-2 : hsl($orange-hue + 2, 86%, 60%);
+$orange-light-3 : hsl($orange-hue + 1, 84%, 68%);
+$orange-light-4 : hsl($orange-hue + 0, 82%, 78%);
+// darkers
+$orange-dark: hsl($orange-hue + 1, 88%, 42%);
+$orange-dark-1 : hsl($orange-hue + 0, 86%, 36%);
+$orange-dark-2 : hsl($orange-hue + 1, 82%, 30%);
+$orange-dark-3 : hsl($orange-hue + 2, 76%, 26%);
+$orange-dark-4 : hsl($orange-hue +3, 70%, 20%);
+
+
+// yellow color & its shades
+$yellow-hue : 42;
+$yellow : hsl($yellow-hue + 2, 92%, 48%);
+// lighters
+$yellow-light: hsl($yellow-hue + 3, 90%, 50%);
+$yellow-light-1 : hsl($yellow-hue + 3, 88%, 54%);
+$yellow-light-2 : hsl($yellow-hue + 2, 86%, 60%);
+$yellow-light-3 : hsl($yellow-hue + 1, 84%, 68%);
+$yellow-light-4 : hsl($yellow-hue + 0, 82%, 78%);
+// darkers
+$yellow-dark: hsl($yellow-hue + 1, 88%, 42%);
+$yellow-dark-1 : hsl($yellow-hue + 0, 86%, 36%);
+$yellow-dark-2 : hsl($yellow-hue + 1, 82%, 30%);
+$yellow-dark-3 : hsl($yellow-hue + 2, 76%, 26%);
+$yellow-dark-4 : hsl($yellow-hue +3, 70%, 20%);
+
+// green color & its shades
+$green-hue : 116;
+$green : hsl($green-hue + 2, 92%, 48%);
+// lighters
+$green-light: hsl($green-hue + 3, 90%, 50%);
+$green-light-1 : hsl($green-hue + 3, 88%, 54%);
+$green-light-2 : hsl($green-hue + 2, 86%, 60%);
+$green-light-3 : hsl($green-hue + 1, 84%, 68%);
+$green-light-4 : hsl($green-hue + 0, 82%, 78%);
+// darkers
+$green-dark: hsl($green-hue + 1, 88%, 42%);
+$green-dark-1 : hsl($green-hue + 0, 86%, 36%);
+$green-dark-2 : hsl($green-hue + 1, 82%, 30%);
+$green-dark-3 : hsl($green-hue + 2, 76%, 26%);
+$green-dark-4 : hsl($green-hue +3, 70%, 20%);
+
+// teal color & its shades
+$teal-hue : 151;
+$teal : hsl($teal-hue + 2, 92%, 48%);
+// lighters
+$teal-light: hsl($teal-hue + 3, 90%, 50%);
+$teal-light-1 : hsl($teal-hue + 3, 88%, 54%);
+$teal-light-2 : hsl($teal-hue + 2, 86%, 60%);
+$teal-light-3 : hsl($teal-hue + 1, 84%, 68%);
+$teal-light-4 : hsl($teal-hue + 0, 82%, 78%);
+// darkers
+$teal-dark: hsl($teal-hue + 1, 88%, 42%);
+$teal-dark-1 : hsl($teal-hue + 0, 86%, 36%);
+$teal-dark-2 : hsl($teal-hue + 1, 82%, 30%);
+$teal-dark-3 : hsl($teal-hue + 2, 76%, 26%);
+$teal-dark-4 : hsl($teal-hue +3, 70%, 20%);
+
+// blue color & its shades
+$blue-hue : 190;
+$blue : hsl($blue-hue + 2, 92%, 48%);
+// lighters
+$blue-light: hsl($blue-hue + 3, 90%, 50%);
+$blue-light-1 : hsl($blue-hue + 3, 88%, 54%);
+$blue-light-2 : hsl($blue-hue + 2, 86%, 60%);
+$blue-light-3 : hsl($blue-hue + 1, 84%, 68%);
+$blue-light-4 : hsl($blue-hue + 0, 82%, 78%);
+// darkers
+$blue-dark: hsl($blue-hue + 1, 88%, 42%);
+$blue-dark-1 : hsl($blue-hue + 0, 86%, 36%);
+$blue-dark-2 : hsl($blue-hue + 1, 82%, 30%);
+$blue-dark-3 : hsl($blue-hue + 2, 76%, 26%);
+$blue-dark-4 : hsl($blue-hue +3, 70%, 20%);
+
+
+// royalblue color & its shades
+$royalblue-hue : 216;
+$royalblue : hsl($royalblue-hue + 2, 92%, 48%);
+// lighters
+$royalblue-light: hsl($royalblue-hue + 3, 90%, 50%);
+$royalblue-light-1 : hsl($royalblue-hue + 3, 88%, 54%);
+$royalblue-light-2 : hsl($royalblue-hue + 2, 86%, 60%);
+$royalblue-light-3 : hsl($royalblue-hue + 1, 84%, 68%);
+$royalblue-light-4 : hsl($royalblue-hue + 0, 82%, 78%);
+// darkers
+$royalblue-dark: hsl($royalblue-hue + 1, 88%, 42%);
+$royalblue-dark-1 : hsl($royalblue-hue + 0, 86%, 36%);
+$royalblue-dark-2 : hsl($royalblue-hue + 1, 82%, 30%);
+$royalblue-dark-3 : hsl($royalblue-hue + 2, 76%, 26%);
+$royalblue-dark-4 : hsl($royalblue-hue +3, 70%, 20%);
+
+
+// purple color & its shades
+$purple-hue : 275;
+$purple : hsl($purple-hue + 2, 92%, 48%);
+// lighters
+$purple-light: hsl($purple-hue + 3, 90%, 50%);
+$purple-light-1 : hsl($purple-hue + 3, 88%, 54%);
+$purple-light-2 : hsl($purple-hue + 2, 86%, 60%);
+$purple-light-3 : hsl($purple-hue + 1, 84%, 68%);
+$purple-light-4 : hsl($purple-hue + 0, 82%, 78%);
+// darkers
+$purple-dark: hsl($purple-hue + 1, 88%, 42%);
+$purple-dark-1 : hsl($purple-hue + 0, 86%, 36%);
+$purple-dark-2 : hsl($purple-hue + 1, 82%, 30%);
+$purple-dark-3 : hsl($purple-hue + 2, 76%, 26%);
+$purple-dark-4 : hsl($purple-hue +3, 70%, 20%);
+
+// pink color & its shades
+$pink-hue : 312;
+$pink : hsl($pink-hue + 2, 92%, 48%);
+// lighters
+$pink-light: hsl($pink-hue + 3, 90%, 50%);
+$pink-light-1 : hsl($pink-hue + 3, 88%, 54%);
+$pink-light-2 : hsl($pink-hue + 2, 86%, 60%);
+$pink-light-3 : hsl($pink-hue + 1, 84%, 68%);
+$pink-light-4 : hsl($pink-hue + 0, 82%, 78%);
+// darkers
+$pink-dark: hsl($pink-hue + 1, 88%, 42%);
+$pink-dark-1 : hsl($pink-hue + 0, 86%, 36%);
+$pink-dark-2 : hsl($pink-hue + 1, 82%, 30%);
+$pink-dark-3 : hsl($pink-hue + 2, 76%, 26%);
+$pink-dark-4 : hsl($pink-hue +3, 70%, 20%);
+
+
+// crimson color & its shades
+$crimson-hue : 345;
+$crimson : hsl($crimson-hue + 2, 92%, 48%);
+// lighters
+$crimson-light: hsl($crimson-hue + 3, 90%, 50%);
+$crimson-light-1 : hsl($crimson-hue + 3, 88%, 54%);
+$crimson-light-2 : hsl($crimson-hue + 2, 86%, 60%);
+$crimson-light-3 : hsl($crimson-hue + 1, 84%, 68%);
+$crimson-light-4 : hsl($crimson-hue + 0, 82%, 78%);
+// darkers
+$crimson-dark: hsl($crimson-hue + 1, 88%, 42%);
+$crimson-dark-1 : hsl($crimson-hue + 0, 86%, 36%);
+$crimson-dark-2 : hsl($crimson-hue + 1, 82%, 30%);
+$crimson-dark-3 : hsl($crimson-hue + 2, 76%, 26%);
+$crimson-dark-4 : hsl($crimson-hue +3, 70%, 20%);
+
+
+// theme
